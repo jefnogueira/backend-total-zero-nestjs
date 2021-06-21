@@ -5,7 +5,7 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://jeffnogueira:aparecida@cluster0.eqssm.mongodb.net/test'),
+    MongooseModule.forRoot('mongodb+srv://'),
     UsersModule],
   controllers: [],
   providers: [],
